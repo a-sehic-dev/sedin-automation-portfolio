@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import { useCallback, useEffect, useState } from 'react'
 import { AboutMeModal } from './components/AboutMeModal'
 import { ClientReviewsSection } from './components/ClientReviewsSection'
@@ -111,6 +112,8 @@ function App() {
           <Footer />
         </SectionAura>
       </div>
+
+      <Analytics />
     </div>
   )
 }
