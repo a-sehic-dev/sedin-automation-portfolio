@@ -1,6 +1,12 @@
 import { motion } from 'framer-motion'
 import { ArrowRight, Briefcase, Code2, Link2, Mail, MessageCircle, Phone, Zap } from 'lucide-react'
-import { LINKEDIN_URL, WHATSAPP_URL } from '../constants/links'
+import {
+  CONTACT_EMAIL,
+  LINKEDIN_URL,
+  MAILTO_URL,
+  VIBER_URL,
+  WHATSAPP_URL,
+} from '../constants/links'
 
 const profiles = [
   {
@@ -133,8 +139,8 @@ export function Footer() {
                   </dt>
                   <dd className="mt-1">
                     <a
-                      href="viber://chat?number=%2B387644152799"
-                      className="inline-flex items-center gap-2 font-medium text-slate-900 hover:text-violet-700"
+                      href={VIBER_URL}
+                      className="inline-flex cursor-pointer items-center gap-2 font-medium text-slate-900 underline-offset-2 hover:text-violet-700 hover:underline"
                     >
                       <MessageCircle className="size-4 text-violet-600" aria-hidden />
                       +38764 415 27 99
@@ -147,11 +153,11 @@ export function Footer() {
                   </dt>
                   <dd className="mt-1">
                     <a
-                      href="mailto:sedinsehic81@gmail.com"
-                      className="inline-flex items-center gap-2 break-all font-medium text-slate-900 hover:text-blue-700"
+                      href={MAILTO_URL}
+                      className="inline-flex cursor-pointer items-center gap-2 break-all font-medium text-slate-900 underline-offset-2 hover:text-blue-700 hover:underline"
                     >
                       <Mail className="size-4 shrink-0 text-blue-600" aria-hidden />
-                      sedinsehic81@gmail.com
+                      {CONTACT_EMAIL}
                     </a>
                   </dd>
                 </div>
