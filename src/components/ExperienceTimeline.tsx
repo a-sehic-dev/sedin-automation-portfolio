@@ -16,14 +16,14 @@ const milestones = [
   },
   {
     period: '2025',
-    title: 'Technical lead',
-    body: 'Owning architecture across concurrent builds: data contracts, deployment patterns, and mentoring on automation quality across squads.',
+    title: 'Process Optimization & Operations',
+    body: 'Streamlined operational workflows and administrative systems within the utility sector. Specialized in optimizing internal processes and accounting logic. This phase was focused on identifying manual bottlenecks and developing systematic ways to eliminate them—a mindset I now apply to every Python project.',
     icon: Crown,
   },
   {
     period: '2026',
-    title: 'Director-level Automation Lead',
-    body: 'From Developer to Director-level scope — steering automation strategy, stakeholder alignment, and mission-critical systems that scale with the business.',
+    title: 'Python Automation Specialist (Self-Employed)',
+    body: 'Building high-performance automation systems for global clients. Specialized in complex web scraping, desktop applications, and custom API integrations. I transform messy manual tasks into scalable, one-command systems that save hundreds of hours for businesses.',
     icon: Sparkles,
   },
 ] as const
@@ -56,8 +56,8 @@ export function ExperienceTimeline() {
             transition={{ delay: 0.05 }}
             className="text-base leading-relaxed text-slate-600"
           >
-            2023–2026: from hands-on developer to Director-level Automation Lead —
-            same stack, rising ownership, and compounding delivery volume.
+            2023–2026: from hands-on developer to self-employed Python automation
+            specialist — same stack, rising ownership, and compounding delivery volume.
           </motion.p>
         </div>
 
